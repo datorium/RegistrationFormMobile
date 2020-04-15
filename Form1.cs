@@ -34,10 +34,6 @@ namespace RegistrationFormMobile
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -50,6 +46,34 @@ namespace RegistrationFormMobile
             {
                 textBox2.PasswordChar = '*';
                 textBox3.PasswordChar = '*';
+            }
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked)
+            {
+                radioButton1.Checked = false;
+                this.BackColor = Color.Black;
+                foreach(Control c in this.Controls)
+                {
+                    c.BackColor = Color.Black;
+                    c.ForeColor = Color.White;
+                }
+            }
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                radioButton2.Checked = false;
+                this.BackColor = Color.White;
+                foreach (Control c in this.Controls)
+                {
+                    c.BackColor = Color.White;
+                    c.ForeColor = Color.Black;
+                }
             }
         }
     }
