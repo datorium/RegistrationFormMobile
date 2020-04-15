@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationFormMobile", "RegistrationFormMobile.csproj", "{D1FE423E-6A49-4804-8733-4467CD3BDFBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1FE423E-6A49-4804-8733-4467CD3BDFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FE423E-6A49-4804-8733-4467CD3BDFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FE423E-6A49-4804-8733-4467CD3BDFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FE423E-6A49-4804-8733-4467CD3BDFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D14A573-8567-4BF4-904D-5AD00C01FC64}
+	EndGlobalSection
+EndGlobal
